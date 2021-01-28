@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, Javascript</title>
+  <link rel="stylesheet" href="css/w3.css">
+  <!--
+    async : downloads js file paralelly, can be blocked
+    defer : downloads js file and finishes downloading html
+            and excutes js file
+  -->
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <p id="msg">
+  </p>
+  <script>
+    document.getElementById("msg").innerHTML = "Message area";
+  </script>
+
+  <div class="w3-container w3-teal">
+    <h1>Study hard!!!</h1>
+  </div>
+      
+  <img src="../asset/sample1.jpg" alt="Girl1">
+      
+  <div class="w3-container">
+    <p>Live server won't start up automatically... Why is that?</p>
+  </div>
+      
+  <div class="w3-container w3-teal">
+    <p>Cool, huh~ ${title}</p>
+  </div>
+
+  <script>
+    x = 15
+    if (x > 10 && x < 20)
+      document.getElementById("msg").innerHTML = `x = ${x}`;
+  </script>
+
+</body>
+</html>
