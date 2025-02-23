@@ -1,0 +1,41 @@
+<!-- * Tips
+1. “!”치고 “tab”; 또는 “HTML”입력 후 “HTML:5” 선택
+2. 하위 요소 생성: “>” 사용   /* 예: */ header>ul>li
+3. 동급 요소 생성: “+” 사용   /* 예: */ section>article>h2+p
+4. 반복 태그 생성: “*” 사용   /* 예: */ ul>li*5
+5. CSS class 와 id 설정: “.” 와 “#”사용  /* 예: */ ul#menu>li.item*3
+6. Grouping (그룹화) : “( )” 사용        /* 예: */ .container>(header>nav>ul>li*5>a)+(#content>section)+footer
+7. 속성 [attribute] 있는 태그: “[]”사용   /* 예: */ td[title="name" colspan="5"]
+8. 텍스트가 있는 태그: {} 중괄호 안에 {텍스트}를 입력  /* 예: */ a.button{Click Me}
+9. 넘버링(숫자를 순서대로 나열): “$”사용   /* 예: */  ul.list>li.item$*5>{$}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>eddie's new home ... TESTING</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2>About Me</h2>
+            <p>Hello! I'm [Your Name], and this is my blog where I share my thoughts and experiences.</p>
+        </article>
+        <article>
+            <h2>Latest Post</h2>
+            <p>This is where your latest blog post will go. Stay tuned for more updates!</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
